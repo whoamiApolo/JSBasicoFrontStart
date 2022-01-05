@@ -1,0 +1,20 @@
+ul {
+    list-style: none;
+    padding: 0;
+
+    display: flex;
+    justify-content: space-around;
+
+    width: 400px;
+    margin: 100px auto;
+}
+
+ul li {
+    height: 25px;
+    padding: 0 10px;
+}
+
+.active{
+    color: blue;
+    border-bottom: 1px solid blue;
+}
