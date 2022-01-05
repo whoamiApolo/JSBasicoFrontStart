@@ -6,4 +6,4 @@ const getName = (name) => {
     console.log(name)
 }
 
-getName("Hello World")
+getName("Apolinário")
