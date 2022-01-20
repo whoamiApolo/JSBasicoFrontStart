@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    }
+
+:root {
+    --tomato: #FF7F50;
+    --red: #ff0000;
+    --white: #fff;
+    --black: #111;
+}
+
+body {
+    background: var(--black);
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+body #tomate {
+    background-color: var(--red);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 auto 0;
+    
+}
+
+body #tomate .time {
+    padding-top: 1em;
+    color: var(--white);
+    font-size: 48px;
+}
+
+body #tomate .time #minutes {
+    font-size: 48px;
+    margin-left: 30%;
+    color: var(--white); 
+    font-weight: 500;
+}
+body #tomate .time #seconds{
+    color: var(--white);
+    font-size: 48px;
+    font-weight: 500;
+}
+
+body .buttons {
+    padding-top: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+}
+
+body .buttons button {
+    background-color: var(--tomato);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+body .buttons button svg {
+    height: 48px;
+    width: 48px;
+    color: var(--black);
+    padding: 0;
+    margin: 0;
+}
